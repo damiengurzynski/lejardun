@@ -1,0 +1,154 @@
+html
+{
+    background-image: url(img/stars.gif);
+    cursor: url(img/hand.png), auto;
+}
+
+#conway
+{
+    width: 71px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: fixed;
+    background-image: url(img/conway.png);
+}
+
+#conway:hover
+{
+    opacity: 60%;
+}
+
+a
+{
+    cursor: url(img/hand.png), auto;
+}
+
+.wrapper
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#titre
+{
+    display: inline-block;
+    width: 800px;;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.bouton
+{
+    margin: 20px;
+}
+
+.exo
+{
+    display: inline-block;
+    width: 160px;;
+    height: 160px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.rules
+{
+    display: inline-block;
+    width: 400px;;
+    height: 450px;
+    margin-top: 100px;
+    margin-right: 100px;
+    background-repeat: no-repeat;
+}
+
+#help
+{
+    background-image: url(img/help.gif);
+    display: inline-block;
+    width: 160px;;
+    height: 160px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#help:hover
+{
+    background-image: url(img/helphover.gif);
+    display: inline-block;
+    width: 160px;;
+    height: 160px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#insufler
+{
+    display: inline-block;
+    background-image: url(img/insufler.gif);
+    width: 138px;
+    height: 20px;
+}
+
+#insufler:hover
+{
+    display: inline-block;
+    background-image: url(img/insuflerhover.gif);
+    width: 138px;
+    height: 20px;
+}
+
+#vite
+{
+    display: inline-block;
+    background-image: url(img/plusvite.gif);
+    width: 138px;
+    height: 20px;
+}
+
+#vite:hover
+{
+    display: inline-block;
+    background-image: url(img/plusvitehover.gif);
+    width: 138px;
+    height: 20px;
+}
+
+#refaire
+{
+    display: inline-block;
+    background-image: url(img/refaire.gif);
+    width: 138px;
+    height: 20px;
+}
+
+#refaire:hover
+{
+    display: inline-block;
+    background-image: url(img/refairehover.gif);
+    width: 138px;
+    height: 20px;
+}
+
+#gamearea
+{
+    display: grid;
+    grid-template-columns: repeat(25, auto);
+    width: 100px;
+    justify-content: center;
+    margin: auto;
+}
+
+.off
+{
+    width: 20px;;
+    height: 20px;
+    background-image: url(img/grass.png);
+}
+
+.on
+{
+    width: 20px;;
+    height: 20px;
+    background-image: url(img/life.gif);
+}
